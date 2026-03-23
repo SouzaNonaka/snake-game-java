@@ -4,6 +4,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
+/**
+ 
+
+  States:  MENU → PLAYING ↔ PAUSED → GAME_OVER → PLAYING
+ */
 public class SnakeGame extends JPanel implements ActionListener, InputHandler.GameControls {
 
 
